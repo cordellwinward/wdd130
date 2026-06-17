@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <!-- Add your devotional content here -->
+         <table class="table">
+          <thead>
+            <tr>
+              <th>Speaker</th>
+              <th>Title</th>
+              <th>Location</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>Elder B. Corey Cuvelier</td>
+            <td>A Great Check</td>
+            <td>BYU-Idaho</td>
+            <td>May 19, 2026</td>
+          </tr>
+          <tr>
+            <td>Elder Robert C. Gay</td>
+            <td>Be True to the Voice of God</td>
+            <td>BYU-Idaho</td>
+            <td>May 05, 2026</td>
+          </tr>
+          <tr>
+            <td>Elder Karl D. Hirst</td>
+            <td>Repentance at Its Fullest</td>
+            <td>BYU-Idaho</td>
+            <td>November 18, 2025</td>
+          </tr>
+         </table>
+         <div class = "table-entry-form">
+          <h2>
+            Add Devotionals to Table
+          </h2>
+           <form method = "post">
+            <label>Speaker Name</label>
+            <input type = "text" class = form-entry>
+            <label>Title</label>
+            <input type = "text" class = form-entry>
+            <label>Location</label>
+            <input type ="text" class = form-entry>
+            <label>Year</label>
+            <input type = "date" class = "form-entry">
+            <input type ="submit" class = "submit-button">
+           </form>
+         </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

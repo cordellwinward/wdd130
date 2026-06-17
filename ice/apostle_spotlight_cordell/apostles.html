@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        #background{
+            background-image: url(images/christus.webp);
+            width: 700px;
+            height: 650px;
+            background-position: -300px;
+            background-size: 1400px;
+            margin: auto;
+            border: #000 10px solid;
+            border-radius: 40px;
+            display: grid;
+           
+        }
+        #grid{
+            color:#ffffff;
+            width: 700px;
+            height: 650px;
+        }
+
+
+        .spotlight{
+            border:  10px solid #ffffff;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: auto;
+        
+
+        }
+        .spotlight img{
+            width: 80px;
+        }
+
+        #grid h1{
+            text-align: center;
+        }
+        #presidency-grid{
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+        }
+        #apostle-grid{
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+        }
+        #grid h2{
+            text-align: center;
+        }
+        #bednar, #cook, #anderson, #uchtdorf{
+            grid-row: 4/5
+        }
+        #stevenson, #rasband, #gong, #renlund{
+            grid-row: 5/6
+        }
+         #kearon, #soares, #gilbert, #causse{
+            grid-row: 6/7
+        }
+        #uchtdorf, #rasband, #soares{
+            grid-column: 2/3;
+        }
+        #bednar, #stevenson, #kearon{
+            grid-column: 3/4;
+        }
+        #anderson, #gong, #gilbert{
+            grid-column: 5/6;
+        }
+        #cook, #causse, #renlund{
+            grid-column: 4/5;
+        }
+
+        #eyring{
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+        #christofferson{
+            grid-column: 4/5;
+        }
+        .apostle{
+            margin: 6px
+        }
+        .first-pres{
+            width: 100px;
+            height: 100px;
+            margin-left: 6px;
+            margin-right: 6px;
+        }
+        .first-pres img{
+            width: 100px;
+        }
+        
+        #oaks{
+            grid-column:3/4;
+            width: 120px;
+            height: 120px;
+        }
+        #oaks img{
+            width: 120px;
+        }
+        .
+        /* Insert styles here */
+    </style>
+</head>
+<body>
+    <!-- Insert HTML elements here -->
+     <div id="background">
+        <div id="grid">
+            <h1>The First Presidency</h1>
+            <div id="presidency-grid">
+                <div id="oaks" class="first-pres spotlight">
+                    <img src="images/oaks.webp" alt ="President Oaks">
+                </div>
+                <div id="christofferson" class= "first-pres spotlight">
+                    <img src="images/christofferson.webp" alt ="President Christofferson">
+                </div>
+                <div id ="eyring" class= "first-pres spotlight">
+                    <img src="images/eyring.webp" alt ="President Eyring">
+                </div>
+            </div>
+            <h2>The Quorum of the 12 Apostles</h2>
+            <div id="apostle-grid">
+                <div id ="uchtdorf" class= "apostle spotlight">
+                    <img src="images/uchtdorf.webp" alt ="President Uchtdorf">
+                </div>
+                  <div id ="bednar" class= "apostle spotlight">
+                    <img src="images/bednar.webp" alt ="Elder Bednar">
+                </div>
+                  <div id ="cook" class= "apostle spotlight">
+                    <img src="images/cook.webp" alt ="Elder Cook">
+                </div>
+                  <div id ="anderson" class= "apostle spotlight">
+                    <img src="images/anderson.webp" alt ="Elder Anderson">
+                </div>
+                  <div id ="rasband" class= "apostle spotlight">
+                    <img src="images/rasband.webp" alt ="Elder Rasband">
+                </div>
+                  <div id ="stevenson" class= "apostle spotlight">
+                    <img src="images/stevenson.webp" alt ="ELder Stevenson">
+                </div>
+                  <div id ="renlund" class= "apostle spotlight">
+                    <img src="images/renlund.webp" alt ="Elder Renlund">
+                </div>
+                <div id ="gong" class= "apostle spotlight">
+                    <img src="images/gong.webp" alt ="Elder Gong">
+                </div>
+                <div id ="soares" class= "apostle spotlight">
+                    <img src="images/soares.webp" alt ="Elder Soares">
+                </div>
+                <div id ="kearon" class= "apostle spotlight">
+                    <img src="images/kearon.webp" alt ="Elder Kearon">
+                </div>
+                <div id ="causse" class= "apostle spotlight">
+                    <img src="images/causse.webp" alt ="Elder Causse">
+                </div>
+                <div id ="gilbert" class= "apostle spotlight">
+                    <img src="images/gilbert.webp" alt ="Elder Gilbert">
+                </div>
+            </div>
+        </div>
+        
+     </div>
+</body>
+</html>

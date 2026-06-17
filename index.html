@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cordell Winward's Portal Page</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link href="styles/styles.css" rel ="stylesheet">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <img id="logo" src="images/logo.png" alt="logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="wwr/index.html" target="_blank">WWR</a>
+                <a href="ice.html">ICE</a>
+                <a href= "about-me.html">About Me</a>
+            </nav>
+        </header>
+        <main>
+            <div id="hero-box">
+                <img id = "hero" src="images/Hero.png" alt ="Hero Image">
+                <h1 id = "title" >Cordell Winward's Portal Page</h1>
+            </div>
+            <section class="display">
+                <img class = "display-photo" src = "images/wwr.jpg" alt="WWR picture">
+                <div class = "textbox list">
+                    <a href="wwr/index.html" target="_blank">
+                        <h2>WWR Site Project</h2>
+                    </a>
+                    <ul class = "list">
+                        <li>Helps people have adventures White Water Rafting </li>
+                        <li>Tutorial website</li>
+                        <li>Designed to increase  my familiarity with HTML</li>
+                    </ul>
+                </div>
+            </section>
+                <section class="display">
+                    <img class = "display-photo" src = "images/ice.jpg" alt="ICE picture">
+                    <div class = "textbox">
+                        <a href="ice.html">
+                            <h2>ICE Challenges</h2>
+                        </a>
+                        <table class ="table">
+                            <thead>
+                                <tr>
+                                    <th>Featured Ice Challenge</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Prophet Card</td>
+                                    <td>Displays a card presenting the prophet, Dalin H. Oaks</td>
+                                </tr>
+                                <tr>
+                                    <td>Apostle Spotlight</td>
+                                    <td>Cleanly displays the photos the of current 1st presidency and the 12 apostles</td>
+                                </tr>
+                                <tr>
+                                    <td>Favorite Devo</td>
+                                    <td>Contains a table of my favorite BYU-Idaho devotionals</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            <section class="display">
+                <img class = "display-photo" src = "images/about-me.jpg" alt="About Me picture">
+                <div class = "textbox">
+                    <a href="about-me.html">
+                        <h2>About Me</h2>
+                    </a>
+                    <p>I am a student studying Computer Science at BYU-Idaho. This is my second semester attending school here. I enjoy doing things outside such as skiing and going on hikes.</p>
+                </div>
+            </section>
+        </main>
+        <div id="form">
+            <h3>Contact Me</h3>
+            <form method="get">
+                <label>What is your name?</label><br>
+                <input type="text" name = "name"><br>
+                <label>Phone Number</label><br>
+                <input type = "text" name = "phone"><br>
+                <label>Email</label><br>
+                <input type = "email" name = "email"><br>
+                <label>What is your prefered contact method?</label><br>
+                <div class = "radio">
+                    <input type ="radio" name= "contact" id="prefer-email" value = "email">
+                    <label for="prefer-email">Email</label>
+                    <input type="radio" name="contact" id="prefer-text" value = "text">
+                    <label for="prefer-text">Text</label><br>
+                </div>
+                <label>Comments</label><br>
+                <textarea name = "comments"></textarea><br>
+                <div class = "submit-button"><input type = "submit" class = "submit"></div>
+            </form>
+        </div>
+        <footer>
+            <p> Cordell Winward Portal Page &copy; </p>
+            <a href="about-me.html">About Me</a>
+            <a class = "social" href="https://www.linkedin.com/in/cordell-winward/" target="_blank"><img src="images/linkedin.png" alt="Linked In Profile"></a>
+        </footer>
+    </div>
+</body>
+</html>
